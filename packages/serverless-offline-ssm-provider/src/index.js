@@ -44,7 +44,8 @@ class ServerlessOfflineSSMProvider {
 
         return {
           Parameter: {
-            Value
+            Value,
+            Type: 'String'
           }
         };
       });
